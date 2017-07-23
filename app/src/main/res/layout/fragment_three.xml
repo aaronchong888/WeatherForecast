@@ -1,0 +1,47 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hk.hku.chong.aaron.weatherforecast.fragments.ThreeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Target Location"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="22sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                android:text="--"
+                android:minEms="8"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/submit_btn"
+                android:layout_margin="10dp"
+                android:text="submit"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/textColorPrimary"
+                android:background="@color/colorAccent"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

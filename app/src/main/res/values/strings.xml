@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="tab_one">Current</string>
+    <string name="tab_three">Settings</string>
+    <string name="tab_two">Weekly</string>
+
+    <string name="part_bold"><b>%1$s</b> %2$s</string>
+
+</resources>
